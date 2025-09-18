@@ -1,0 +1,11 @@
+pyproject.toml
+toguzkumalak/__init__.py
+toguzkumalak/ai.py
+toguzkumalak/cli.py
+toguzkumalak/eval.py
+toguzkumalak/rules.py
+toguzkumalak/state.py
+togyz.egg-info/PKG-INFO
+togyz.egg-info/SOURCES.txt
+togyz.egg-info/dependency_links.txt
+togyz.egg-info/top_level.txt
