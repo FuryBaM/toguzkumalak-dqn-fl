@@ -1,10 +1,10 @@
 import torch, numpy as np
-from .state import *
+from togyzkumalak import *
 
 INPUT_SIZE = 23  # 18 pits + 2 scores + 2 tuzdyk flags + 1 player
 N_ACTIONS = 9    # локальные ходы 0..8
 
-def encode_state(state) -> torch.Tensor:
+def encode_state(state: GameState) -> torch.Tensor:
     # board: копия с заменой туздыков на -1
     pits = torch.tensor(state.board, dtype=torch.float32)
     if state.tuzdyk1 != -1:
